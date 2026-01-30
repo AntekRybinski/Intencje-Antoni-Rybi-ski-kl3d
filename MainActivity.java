@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         btnThird = findViewById(R.id.btnThird);
         etAdresUrl = findViewById(R.id.etAdresUrl);
 
-        // 🔹 INTENCJA JAWNA – SecondActivity
+       
         btnFirst.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // 🔹 INTENCJA NIEJAWNA – przeglądarka
+      
         btnSecond.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // 🔹 INTENCJA JAWNA – GPS
+      
         btnThird.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
